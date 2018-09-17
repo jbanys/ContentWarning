@@ -1,0 +1,104 @@
+/* (c) 2018 Justinas Banys */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.popupCw {
+	display: block; 
+	position: fixed; 
+	z-index: 99; 
+	padding-top: 100px; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto;  
+	background-color: rgba(0,0,0,0.7);
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+
+.containerCw {
+	display: block; 
+	position: fixed; 
+	z-index: 99; 
+	left: 37%; 
+	top: 25%;
+	width: 25%; 
+	height: 20%;
+	overflow: auto; 
+	background-color: rgb(245,247,250); 
+	border-radius: .25em .25em .4em .4em; 
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.textDiv {
+	font-family: "Lato", sans-serif;
+	font-size: 1.6vh;  
+	line-height: 1.6;
+	padding: 0.5em;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	-webkit-box-sizing: border-box;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60%;
+	width: 100%;
+}
+
+.okButtonCw {
+	position : absolute;
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	font-size: 18px; 
+	color: #f5f6fa; 
+	background: #086A87; 
+	bottom: 0; 
+	left: 0; 
+	width: 50%; 
+	height: 30%; 
+	border-radius: .25em 0em 0em 0em;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.okButtonCw:hover {
+	background: #0489B1; 
+	font-size: 18px; 
+	color: white
+}
+
+.noButtonCw {
+	position : absolute;
+	font-family: "Lato", sans-serif; 
+	font-size: 18px; 
+	font-weight: normal;
+	color: black; 
+	background: #ddd; 
+	bottom: 0; 
+	right: 0; 
+	width: 50%; 
+	height: 30%; 
+	border-radius: 0em 0.25em 0em 0em;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.noButtonCw:hover {
+	background: #A4A4A4; 
+	font-size: 18px; 
+	color: black;
+}

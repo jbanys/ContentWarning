@@ -1,2 +1,3 @@
-# ContentWarning
-Chrome Extension that provides customizable content warnings
+# content-warning
+
+Link: https://chrome.google.com/webstore/detail/content-warning/fifecojajmdemfccknoappgllkcoihbc
